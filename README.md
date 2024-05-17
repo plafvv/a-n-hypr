@@ -51,4 +51,6 @@ sudo pacman -Syu --needed noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu 
 
 ### 5) Removes noise from the microphone
 
+```
 yay -S noisetorch-git
+```
