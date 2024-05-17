@@ -20,9 +20,6 @@ cd archinstall && chmod +x archinstall && ./archinstall
 ### 2 ) Install Hyprland scripts
 
 ```
-pacman -Sy git
-```
-```
 git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE
 ```
 ```
