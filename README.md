@@ -8,8 +8,9 @@
 ```
 pacman -Sy git 
 ```
-
-
+```
+git clone https://github.com/ecint/archinst.git
+```
 ```
 cd archinstall / chmod +x archinstall / ./archinstall
 ```
