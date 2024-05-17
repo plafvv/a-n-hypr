@@ -5,39 +5,48 @@
 
 ### 1 ) archlinux : SCRIPTS 
 
+```
 pacman -Sy git 
+```
 
 
-
+```
 cd archinstall / chmod +x archinstall / ./archinstall
+```
 
 
 
-### 2 ) install hyprland scripts
+### 2 ) Install Hyprland scripts
 
+```
 pacman -Sy git
-
+```
+```
 git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE
-
+```
+```
 cd ~/HyDE/Scripts
-
+```
+```
 ./install.sh 
+```
 
 
 
-
-### 3 ) install drives nvidia 
-
+### 3 ) Install Nvidia drivers
+```
 nvidia nvidia-utils lib32-nvidia-utils nvidia-settings
-
+```
 
 
 ### 4 ) Installing fonts
 
+```
 sudo pacman -Syu extra/ttf-nerd-fonts-symbols
-
+```
+```
 sudo pacman -Syu --needed noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-dejavu ttf-liberation
-
+```
 
 ### 5) Removes noise from the microphone
 
